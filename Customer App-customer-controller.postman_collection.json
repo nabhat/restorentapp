@@ -1,0 +1,36 @@
+{
+	"info": {
+		"_postman_id": "d4d3e15b-c7fa-4d93-ae17-8e97e3e094a7",
+		"name": "Customer App:customer-controller",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "16721132"
+	},
+	"item": [
+		{
+			"name": "add Customer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"state\": \"string\",\r\n  \"address\": \"string\",\r\n  \"lastName\": \"string\",\r\n  \"passcode\": \"string\",\r\n  \"zipCode\": \"string\",\r\n  \"firstName\": \"string\",\r\n  \"email\": \"string\",\r\n  \"phoneNumber\": 20,\r\n  \"city\": \"string\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:9092/client2/customer"
+			},
+			"response": []
+		},
+		{
+			"name": "order List of Customer",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
