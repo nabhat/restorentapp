@@ -101,7 +101,13 @@ public class OrderService {
            	     // Log the order creation
            	     savedOrder.logOrderCreation();
                     logger.info("Order saved successfully: {}", savedOrder);
-           		 return new ResponseEntity<>(savedOrder, HttpStatus.CREATED);
+				 OrderReturnBean obean=new OrderReturnBean();
+				 obean.setCustomerId(savedOrder.getCustomer().getCustomerId());
+				 obean.setStatus(savedOrder.getStatus());
+				 obean.setQuantity(savedOrder.getQuantity());
+				 obean.setDishId(savedOrder.getDishId());
+				 obean.setOrderId(savedOrder.getOrderId());
+           		 return new ResponseEntity<>(obean, HttpStatus.CREATED);
         		}catch(Exception e) {
         		Orders savedOrder=new Orders();
         		savedOrder.logOrderError(e.getMessage());

@@ -101,3 +101,83 @@
 2024-09-02 09:46:29 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
 2024-09-02 09:51:29 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
 2024-09-02 09:56:29 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 10:01:29 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 10:06:29 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 10:11:29 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 10:16:29 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 10:21:29 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 10:26:29 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 10:31:29 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 10:36:29 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 10:41:29 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 10:46:29 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 10:51:29 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 10:56:29 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 11:01:29 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 11:06:29 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 11:11:29 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 11:16:29 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 11:21:29 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 11:26:29 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 11:28:49 INFO  c.p.f.controller.MenuItemController - Received request to get dish by ID: 1
+2024-09-02 11:28:49 INFO  c.p.f.service.MenuItemService - Attempting to get dish by ID: 1
+2024-09-02 11:28:49 INFO  c.p.f.controller.MenuItemController - Successfully retrieved dish with ID 1: MenuItem(dishId=1, dishCategory=Appetizer, dishName=Spring Rolls, unitPrice=8, dishDesc=Crispy vegetable spring rolls served with sweet chili sauce)
+2024-09-02 11:31:29 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 11:32:06 INFO  c.p.f.controller.MenuItemController - Received request to get dish by ID: 1
+2024-09-02 11:32:06 INFO  c.p.f.service.MenuItemService - Attempting to get dish by ID: 1
+2024-09-02 11:32:06 INFO  c.p.f.controller.MenuItemController - Successfully retrieved dish with ID 1: MenuItem(dishId=1, dishCategory=Appetizer, dishName=Spring Rolls, unitPrice=8, dishDesc=Crispy vegetable spring rolls served with sweet chili sauce)
+2024-09-02 11:33:25 INFO  c.p.f.controller.MenuItemController - Received request to get dish by ID: 1
+2024-09-02 11:33:25 INFO  c.p.f.service.MenuItemService - Attempting to get dish by ID: 1
+2024-09-02 11:33:25 INFO  c.p.f.controller.MenuItemController - Successfully retrieved dish with ID 1: MenuItem(dishId=1, dishCategory=Appetizer, dishName=Spring Rolls, unitPrice=8, dishDesc=Crispy vegetable spring rolls served with sweet chili sauce)
+2024-09-02 11:33:29 INFO  c.p.f.controller.MenuItemController - Received request to get dish by ID: 1
+2024-09-02 11:33:29 INFO  c.p.f.service.MenuItemService - Attempting to get dish by ID: 1
+2024-09-02 11:33:29 INFO  c.p.f.controller.MenuItemController - Successfully retrieved dish with ID 1: MenuItem(dishId=1, dishCategory=Appetizer, dishName=Spring Rolls, unitPrice=8, dishDesc=Crispy vegetable spring rolls served with sweet chili sauce)
+2024-09-02 11:36:29 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 11:41:29 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 11:46:29 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 11:51:29 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 11:56:29 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 12:01:29 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 12:06:26 INFO  c.p.f.controller.MenuItemController - Received request to get list of dishes by category: Beveragej
+2024-09-02 12:06:26 INFO  c.p.f.service.MenuItemService - Attempting to get list of dishes for category: Beveragej
+2024-09-02 12:06:26 INFO  c.p.f.service.MenuItemService - Fetched list of dishes: []
+2024-09-02 12:06:26 ERROR c.p.f.service.MenuItemService - No dishes available for category: Beveragej
+2024-09-02 12:06:26 ERROR c.p.f.controller.MenuItemController - Error retrieving dishes for category Beveragej: No Dish avialbe
+2024-09-02 12:06:26 ERROR c.p.foodservice.util.ErrorResponse - ErrorResponse created: Message - 'No Dish avialbe', Code - 404
+2024-09-02 12:06:29 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 12:06:31 INFO  c.p.f.controller.MenuItemController - Received request to get list of dishes by category: Beverage
+2024-09-02 12:06:31 INFO  c.p.f.service.MenuItemService - Attempting to get list of dishes for category: Beverage
+2024-09-02 12:06:31 INFO  c.p.f.service.MenuItemService - Fetched list of dishes: [MenuItem(dishId=23, dishCategory=Beverage, dishName=Lemonade, unitPrice=3, dishDesc=Freshly squeezed lemonade with a hint of mint), MenuItem(dishId=24, dishCategory=Beverage, dishName=Iced Tea, unitPrice=3, dishDesc=Chilled black tea served with lemon and sugar), MenuItem(dishId=25, dishCategory=Beverage, dishName=Coffee, unitPrice=4, dishDesc=Freshly brewed coffee, regular or decaf), MenuItem(dishId=26, dishCategory=Beverage, dishName=Green Tea, unitPrice=4, dishDesc=Hot green tea with a delicate flavor), MenuItem(dishId=27, dishCategory=Beverage, dishName=Orange Juice, unitPrice=5, dishDesc=Freshly squeezed orange juice), MenuItem(dishId=28, dishCategory=Beverage, dishName=Smoothie, unitPrice=6, dishDesc=Blended fruit smoothie with yogurt and honey), MenuItem(dishId=29, dishCategory=Beverage, dishName=Sparkling Water, unitPrice=3, dishDesc=Refreshing sparkling water served with a slice of lime), MenuItem(dishId=30, dishCategory=Beverage, dishName=Milkshake, unitPrice=5, dishDesc=Thick and creamy milkshake available in chocolate, vanilla, or strawberry flavors)]
+2024-09-02 12:06:31 INFO  c.p.f.service.MenuItemService - Returning list of dishes for category Beverage: [MenuItem(dishId=23, dishCategory=Beverage, dishName=Lemonade, unitPrice=3, dishDesc=Freshly squeezed lemonade with a hint of mint), MenuItem(dishId=24, dishCategory=Beverage, dishName=Iced Tea, unitPrice=3, dishDesc=Chilled black tea served with lemon and sugar), MenuItem(dishId=25, dishCategory=Beverage, dishName=Coffee, unitPrice=4, dishDesc=Freshly brewed coffee, regular or decaf), MenuItem(dishId=26, dishCategory=Beverage, dishName=Green Tea, unitPrice=4, dishDesc=Hot green tea with a delicate flavor), MenuItem(dishId=27, dishCategory=Beverage, dishName=Orange Juice, unitPrice=5, dishDesc=Freshly squeezed orange juice), MenuItem(dishId=28, dishCategory=Beverage, dishName=Smoothie, unitPrice=6, dishDesc=Blended fruit smoothie with yogurt and honey), MenuItem(dishId=29, dishCategory=Beverage, dishName=Sparkling Water, unitPrice=3, dishDesc=Refreshing sparkling water served with a slice of lime), MenuItem(dishId=30, dishCategory=Beverage, dishName=Milkshake, unitPrice=5, dishDesc=Thick and creamy milkshake available in chocolate, vanilla, or strawberry flavors)]
+2024-09-02 12:06:31 INFO  c.p.f.controller.MenuItemController - Successfully retrieved dishes for category Beverage: [MenuItem(dishId=23, dishCategory=Beverage, dishName=Lemonade, unitPrice=3, dishDesc=Freshly squeezed lemonade with a hint of mint), MenuItem(dishId=24, dishCategory=Beverage, dishName=Iced Tea, unitPrice=3, dishDesc=Chilled black tea served with lemon and sugar), MenuItem(dishId=25, dishCategory=Beverage, dishName=Coffee, unitPrice=4, dishDesc=Freshly brewed coffee, regular or decaf), MenuItem(dishId=26, dishCategory=Beverage, dishName=Green Tea, unitPrice=4, dishDesc=Hot green tea with a delicate flavor), MenuItem(dishId=27, dishCategory=Beverage, dishName=Orange Juice, unitPrice=5, dishDesc=Freshly squeezed orange juice), MenuItem(dishId=28, dishCategory=Beverage, dishName=Smoothie, unitPrice=6, dishDesc=Blended fruit smoothie with yogurt and honey), MenuItem(dishId=29, dishCategory=Beverage, dishName=Sparkling Water, unitPrice=3, dishDesc=Refreshing sparkling water served with a slice of lime), MenuItem(dishId=30, dishCategory=Beverage, dishName=Milkshake, unitPrice=5, dishDesc=Thick and creamy milkshake available in chocolate, vanilla, or strawberry flavors)]
+2024-09-02 12:06:43 INFO  c.p.f.controller.MenuItemController - Received request to get dish by ID: 235
+2024-09-02 12:06:43 INFO  c.p.f.service.MenuItemService - Attempting to get dish by ID: 235
+2024-09-02 12:06:43 ERROR c.p.f.controller.MenuItemController - Error retrieving dish with ID 235: Dish not found
+2024-09-02 12:06:43 ERROR c.p.foodservice.util.ErrorResponse - ErrorResponse created: Message - 'Dish not found', Code - 404
+2024-09-02 12:11:29 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 12:16:29 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 12:21:29 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 12:26:29 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 12:31:29 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 12:36:29 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 12:41:29 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 12:46:29 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 12:51:29 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 12:56:29 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 13:01:29 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 13:06:29 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 13:11:29 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 13:16:29 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 13:21:29 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 13:26:29 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 13:31:29 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 13:36:29 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 13:41:29 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 13:46:29 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 13:51:29 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 13:56:29 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 14:01:29 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 14:06:29 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 14:11:29 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 14:16:29 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 14:21:29 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration

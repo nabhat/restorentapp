@@ -395,3 +395,242 @@
 2024-09-02 09:48:45 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
 2024-09-02 09:53:45 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
 2024-09-02 09:58:45 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 10:03:45 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 10:08:45 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 10:13:45 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 10:18:45 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 10:23:45 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 10:28:45 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 10:33:45 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 10:38:45 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 10:43:45 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 10:48:45 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 10:53:45 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 10:58:45 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 11:03:45 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 11:08:45 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 11:13:45 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 11:18:45 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 11:23:45 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 11:28:16 INFO  c.p.c.controller.OrderController - Received request to delete order with id: 2
+2024-09-02 11:28:16 INFO  c.p.c.service.OrderService - Removing order with id: 2
+2024-09-02 11:28:16 ERROR c.p.c.util.ErrorResponse - ErrorResponse created: Message - 'Order can't be cancelled 10min after placing', Code - 403
+2024-09-02 11:28:26 ERROR c.p.c.e.MenuGlobalExceptionHandler - Validation error occurred: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<?> com.proj.customerservice.controller.OrderController.placeOrder(com.proj.customerservice.beans.OrderBean) with 3 errors: [Field error in object 'orderBean' on field 'customerId': rejected value [null]; codes [NotNull.orderBean.customerId,NotNull.customerId,NotNull.java.lang.Integer,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [orderBean.customerId,customerId]; arguments []; default message [customerId]]; default message [must not be null]] [Field error in object 'orderBean' on field 'quantity': rejected value [null]; codes [NotNull.orderBean.quantity,NotNull.quantity,NotNull.java.lang.Integer,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [orderBean.quantity,quantity]; arguments []; default message [quantity]]; default message [Quantity Can't be zero]] [Field error in object 'orderBean' on field 'dishId': rejected value [null]; codes [NotNull.orderBean.dishId,NotNull.dishId,NotNull.java.lang.Integer,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [orderBean.dishId,dishId]; arguments []; default message [dishId]]; default message [must not be null]] 
+2024-09-02 11:28:26 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<?> com.proj.customerservice.controller.OrderController.placeOrder(com.proj.customerservice.beans.OrderBean) with 3 errors: [Field error in object 'orderBean' on field 'customerId': rejected value [null]; codes [NotNull.orderBean.customerId,NotNull.customerId,NotNull.java.lang.Integer,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [orderBean.customerId,customerId]; arguments []; default message [customerId]]; default message [must not be null]] [Field error in object 'orderBean' on field 'quantity': rejected value [null]; codes [NotNull.orderBean.quantity,NotNull.quantity,NotNull.java.lang.Integer,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [orderBean.quantity,quantity]; arguments []; default message [quantity]]; default message [Quantity Can't be zero]] [Field error in object 'orderBean' on field 'dishId': rejected value [null]; codes [NotNull.orderBean.dishId,NotNull.dishId,NotNull.java.lang.Integer,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [orderBean.dishId,dishId]; arguments []; default message [dishId]]; default message [must not be null]] ]
+2024-09-02 11:28:45 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 11:28:49 INFO  c.p.c.controller.OrderController - Received request to place a new order: OrderBean(dishId=1, customerId=1, quantity=10)
+2024-09-02 11:28:49 INFO  c.p.c.controller.OrderController - Order successfully placed: OrderBean(dishId=1, customerId=1, quantity=10)
+2024-09-02 11:28:49 INFO  c.p.c.service.OrderService - Checking if the dish with id 1 is valid
+2024-09-02 11:28:49 INFO  c.p.c.service.OrderService - Dish with id 1 is valid. Response from service: <200 OK OK,{"dishId":1,"dishCategory":"Appetizer","dishName":"Spring Rolls","unitPrice":8,"dishDesc":"Crispy vegetable spring rolls served with sweet chili sauce"},[Content-Type:"application/json", Transfer-Encoding:"chunked", Date:"Mon, 02 Sep 2024 05:58:49 GMT", Keep-Alive:"timeout=60", Connection:"keep-alive"]>
+2024-09-02 11:28:49 INFO  c.p.c.service.OrderService - Checking if the customer with id 1 is valid
+2024-09-02 11:28:49 INFO  c.p.c.service.CustomerService - Finding the customer by ID: 1
+2024-09-02 11:28:49 INFO  c.p.c.service.OrderService - Customer with id 1 is valid. Customer info: [FAILED toString()]
+2024-09-02 11:28:49 INFO  c.proj.customerservice.entity.Orders - New order created with orderId: 5, dishId: 1, quantity: 10, customerId: 1
+2024-09-02 11:28:49 INFO  c.p.c.service.OrderService - Order saved successfully: [FAILED toString()]
+2024-09-02 11:31:53 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-09-02 11:31:53 INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application CUSTOMERSERVICE with eureka with status DOWN
+2024-09-02 11:31:53 INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1725256913149, current=DOWN, previous=UP]
+2024-09-02 11:31:53 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_CUSTOMERSERVICE/DESKTOP-N21KF0D:customerservice:9092: registering service...
+2024-09-02 11:31:53 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_CUSTOMERSERVICE/DESKTOP-N21KF0D:customerservice:9092 - registration status: 204
+2024-09-02 11:31:53 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-02 11:31:53 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown initiated...
+2024-09-02 11:31:53 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown completed.
+2024-09-02 11:31:53 INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2024-09-02 11:31:56 INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2024-09-02 11:31:56 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_CUSTOMERSERVICE/DESKTOP-N21KF0D:customerservice:9092 - deregister  status: 200
+2024-09-02 11:31:56 INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2024-09-02 11:31:56 INFO  c.p.c.CustomerserviceApplication - Starting CustomerserviceApplication using Java 17.0.12 with PID 1352 (C:\Users\nabha\IdeaProjects\customerservice\target\classes started by nabha in C:\Users\nabha\IdeaProjects\customerservice)
+2024-09-02 11:31:56 DEBUG c.p.c.CustomerserviceApplication - Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-09-02 11:31:56 INFO  c.p.c.CustomerserviceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-09-02 11:31:57 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-02 11:31:57 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 2 JPA repository interfaces.
+2024-09-02 11:31:57 INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=118c7143-9246-3357-b309-2d4337a15cb0
+2024-09-02 11:31:57 WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-09-02 11:31:57 WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'deferringLoadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.DeferringLoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-09-02 11:31:57 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9092 (http)
+2024-09-02 11:31:57 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-09-02 11:31:57 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-02 11:31:57 INFO  o.a.c.c.C.[.[localhost].[/client2] - Initializing Spring embedded WebApplicationContext
+2024-09-02 11:31:57 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 816 ms
+2024-09-02 11:31:57 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-02 11:31:57 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-09-02 11:31:57 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-02 11:31:57 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Starting...
+2024-09-02 11:31:57 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-7 - Added connection com.mysql.cj.jdbc.ConnectionImpl@a6af410
+2024-09-02 11:31:57 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Start completed.
+2024-09-02 11:31:57 WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-02 11:31:57 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-02 11:31:57 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-02 11:31:58 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-02 11:31:59 WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2024-09-02 11:32:00 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2024-09-02 11:32:00 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-09-02 11:32:00 INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 19 endpoints beneath base path '/actuator'
+2024-09-02 11:32:00 INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2024-09-02 11:32:00 INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2024-09-02 11:32:00 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 11:32:00 INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2024-09-02 11:32:00 INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2024-09-02 11:32:00 INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2024-09-02 11:32:00 INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2024-09-02 11:32:00 INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2024-09-02 11:32:00 INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2024-09-02 11:32:00 INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2024-09-02 11:32:00 INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2024-09-02 11:32:00 INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2024-09-02 11:32:00 INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-09-02 11:32:00 INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1725256920281 with initial instances count: 2
+2024-09-02 11:32:00 INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application CUSTOMERSERVICE with eureka with status UP
+2024-09-02 11:32:00 INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1725256920291, current=UP, previous=STARTING]
+2024-09-02 11:32:00 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_CUSTOMERSERVICE/DESKTOP-N21KF0D:customerservice:9092: registering service...
+2024-09-02 11:32:00 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9092 (http) with context path '/client2'
+2024-09-02 11:32:00 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 9092
+2024-09-02 11:32:00 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_CUSTOMERSERVICE/DESKTOP-N21KF0D:customerservice:9092 - registration status: 204
+2024-09-02 11:32:00 INFO  c.p.c.CustomerserviceApplication - Started CustomerserviceApplication in 3.984 seconds (process running for 17263.762)
+2024-09-02 11:32:00 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-09-02 11:32:06 INFO  o.a.c.c.C.[.[localhost].[/client2] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-02 11:32:06 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-09-02 11:32:06 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-09-02 11:32:06 INFO  c.p.c.controller.OrderController - Received request to place a new order: OrderBean(dishId=1, customerId=1, quantity=10)
+2024-09-02 11:32:06 INFO  c.p.c.controller.OrderController - Order successfully placed: OrderBean(dishId=1, customerId=1, quantity=10)
+2024-09-02 11:32:06 INFO  c.p.c.service.OrderService - Checking if the dish with id 1 is valid
+2024-09-02 11:32:06 INFO  c.p.c.service.OrderService - Dish with id 1 is valid. Response from service: <200 OK OK,{"dishId":1,"dishCategory":"Appetizer","dishName":"Spring Rolls","unitPrice":8,"dishDesc":"Crispy vegetable spring rolls served with sweet chili sauce"},[Content-Type:"application/json", Transfer-Encoding:"chunked", Date:"Mon, 02 Sep 2024 06:02:06 GMT", Keep-Alive:"timeout=60", Connection:"keep-alive"]>
+2024-09-02 11:32:06 INFO  c.p.c.service.OrderService - Checking if the customer with id 1 is valid
+2024-09-02 11:32:06 INFO  c.p.c.service.CustomerService - Finding the customer by ID: 1
+2024-09-02 11:32:06 INFO  c.p.c.service.OrderService - Customer with id 1 is valid. Customer info: [FAILED toString()]
+2024-09-02 11:32:06 INFO  c.proj.customerservice.entity.Orders - New order created with orderId: 6, dishId: 1, quantity: 10, customerId: 1
+2024-09-02 11:32:06 INFO  c.p.c.service.OrderService - Order saved successfully: [FAILED toString()]
+2024-09-02 11:32:30 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-09-02 11:32:30 INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application CUSTOMERSERVICE with eureka with status DOWN
+2024-09-02 11:32:30 INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1725256950161, current=DOWN, previous=UP]
+2024-09-02 11:32:30 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_CUSTOMERSERVICE/DESKTOP-N21KF0D:customerservice:9092: registering service...
+2024-09-02 11:32:30 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_CUSTOMERSERVICE/DESKTOP-N21KF0D:customerservice:9092 - registration status: 204
+2024-09-02 11:32:30 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-02 11:32:30 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown initiated...
+2024-09-02 11:32:30 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown completed.
+2024-09-02 11:32:30 INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2024-09-02 11:32:33 INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2024-09-02 11:32:33 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_CUSTOMERSERVICE/DESKTOP-N21KF0D:customerservice:9092 - deregister  status: 200
+2024-09-02 11:32:33 INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2024-09-02 11:32:35 INFO  c.p.c.CustomerserviceApplication - Starting CustomerserviceApplication using Java 17.0.12 with PID 1352 (C:\Users\nabha\IdeaProjects\customerservice\target\classes started by nabha in C:\Users\nabha\IdeaProjects\customerservice)
+2024-09-02 11:32:35 DEBUG c.p.c.CustomerserviceApplication - Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-09-02 11:32:35 INFO  c.p.c.CustomerserviceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-09-02 11:32:38 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-02 11:32:38 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 2 JPA repository interfaces.
+2024-09-02 11:32:38 INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=118c7143-9246-3357-b309-2d4337a15cb0
+2024-09-02 11:32:38 WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-09-02 11:32:38 WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'deferringLoadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.DeferringLoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-09-02 11:32:38 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9092 (http)
+2024-09-02 11:32:38 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-09-02 11:32:38 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-02 11:32:38 INFO  o.a.c.c.C.[.[localhost].[/client2] - Initializing Spring embedded WebApplicationContext
+2024-09-02 11:32:38 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2868 ms
+2024-09-02 11:32:39 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-02 11:32:39 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-09-02 11:32:39 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-02 11:32:39 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Starting...
+2024-09-02 11:32:39 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-8 - Added connection com.mysql.cj.jdbc.ConnectionImpl@20e53bed
+2024-09-02 11:32:39 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Start completed.
+2024-09-02 11:32:39 WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-02 11:32:39 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-02 11:32:39 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-02 11:32:39 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-02 11:32:41 WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2024-09-02 11:32:41 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2024-09-02 11:32:41 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-09-02 11:32:41 INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 19 endpoints beneath base path '/actuator'
+2024-09-02 11:32:41 INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2024-09-02 11:32:41 INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2024-09-02 11:32:41 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 11:32:41 INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2024-09-02 11:32:41 INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2024-09-02 11:32:41 INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2024-09-02 11:32:41 INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2024-09-02 11:32:41 INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2024-09-02 11:32:41 INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2024-09-02 11:32:41 INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2024-09-02 11:32:41 INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2024-09-02 11:32:41 INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2024-09-02 11:32:41 INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-09-02 11:32:41 INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1725256961530 with initial instances count: 3
+2024-09-02 11:32:41 INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application CUSTOMERSERVICE with eureka with status UP
+2024-09-02 11:32:41 INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1725256961536, current=UP, previous=STARTING]
+2024-09-02 11:32:41 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_CUSTOMERSERVICE/DESKTOP-N21KF0D:customerservice:9092: registering service...
+2024-09-02 11:32:41 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9092 (http) with context path '/client2'
+2024-09-02 11:32:41 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 9092
+2024-09-02 11:32:41 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_CUSTOMERSERVICE/DESKTOP-N21KF0D:customerservice:9092 - registration status: 204
+2024-09-02 11:32:41 INFO  c.p.c.CustomerserviceApplication - Started CustomerserviceApplication in 7.899 seconds (process running for 17304.939)
+2024-09-02 11:32:41 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-09-02 11:33:25 INFO  o.a.c.c.C.[.[localhost].[/client2] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-02 11:33:25 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-09-02 11:33:25 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-09-02 11:33:25 INFO  c.p.c.controller.OrderController - Received request to place a new order: OrderBean(dishId=1, customerId=1, quantity=10)
+2024-09-02 11:33:25 INFO  c.p.c.controller.OrderController - Order successfully placed: OrderBean(dishId=1, customerId=1, quantity=10)
+2024-09-02 11:33:25 INFO  c.p.c.service.OrderService - Checking if the dish with id 1 is valid
+2024-09-02 11:33:25 INFO  c.p.c.service.OrderService - Dish with id 1 is valid. Response from service: <200 OK OK,{"dishId":1,"dishCategory":"Appetizer","dishName":"Spring Rolls","unitPrice":8,"dishDesc":"Crispy vegetable spring rolls served with sweet chili sauce"},[Content-Type:"application/json", Transfer-Encoding:"chunked", Date:"Mon, 02 Sep 2024 06:03:25 GMT", Keep-Alive:"timeout=60", Connection:"keep-alive"]>
+2024-09-02 11:33:25 INFO  c.p.c.service.OrderService - Checking if the customer with id 1 is valid
+2024-09-02 11:33:25 INFO  c.p.c.service.CustomerService - Finding the customer by ID: 1
+2024-09-02 11:33:25 INFO  c.p.c.service.OrderService - Customer with id 1 is valid. Customer info: [FAILED toString()]
+2024-09-02 11:33:25 INFO  c.proj.customerservice.entity.Orders - New order created with orderId: 7, dishId: 1, quantity: 10, customerId: 1
+2024-09-02 11:33:25 INFO  c.p.c.service.OrderService - Order saved successfully: [FAILED toString()]
+2024-09-02 11:33:29 INFO  c.p.c.controller.OrderController - Received request to place a new order: OrderBean(dishId=1, customerId=1, quantity=10)
+2024-09-02 11:33:29 INFO  c.p.c.controller.OrderController - Order successfully placed: OrderBean(dishId=1, customerId=1, quantity=10)
+2024-09-02 11:33:29 INFO  c.p.c.service.OrderService - Checking if the dish with id 1 is valid
+2024-09-02 11:33:29 INFO  c.p.c.service.OrderService - Dish with id 1 is valid. Response from service: <200 OK OK,{"dishId":1,"dishCategory":"Appetizer","dishName":"Spring Rolls","unitPrice":8,"dishDesc":"Crispy vegetable spring rolls served with sweet chili sauce"},[Content-Type:"application/json", Transfer-Encoding:"chunked", Date:"Mon, 02 Sep 2024 06:03:29 GMT", Keep-Alive:"timeout=60", Connection:"keep-alive"]>
+2024-09-02 11:33:29 INFO  c.p.c.service.OrderService - Checking if the customer with id 1 is valid
+2024-09-02 11:33:29 INFO  c.p.c.service.CustomerService - Finding the customer by ID: 1
+2024-09-02 11:33:29 INFO  c.p.c.service.OrderService - Customer with id 1 is valid. Customer info: [FAILED toString()]
+2024-09-02 11:33:29 INFO  c.proj.customerservice.entity.Orders - New order created with orderId: 8, dishId: 1, quantity: 10, customerId: 1
+2024-09-02 11:33:29 INFO  c.p.c.service.OrderService - Order saved successfully: [FAILED toString()]
+2024-09-02 11:35:40 INFO  c.p.c.controller.OrderController - Received request to delete order with id: 8
+2024-09-02 11:35:40 INFO  c.p.c.service.OrderService - Removing order with id: 8
+2024-09-02 11:35:40 INFO  c.p.c.service.OrderService - Order OrderReturnBean(OrderId=8, dishId=1, customerId=1, status=0, quantity=10) cancelled successfully
+2024-09-02 11:35:40 INFO  c.p.c.controller.OrderController - Order with id 8 successfully cancelled
+2024-09-02 11:37:34 INFO  c.p.c.controller.CustomerController - --------------------
+2024-09-02 11:37:34 INFO  c.p.c.controller.CustomerController - TO register the customer Bean recived
+2024-09-02 11:37:34 INFO  c.p.c.service.CustomerService - Attempting to save the customer: Customer(customerId=null, firstName=Anagha, lastName=N G, email=test@email.com, phoneNumber=9876543120, address=Electronic City, city=Banglore, state=KA, zipCode=560064, passcode=PassWord, order=null)
+2024-09-02 11:37:34 INFO  c.p.c.service.CustomerService - Saving the new customer: Customer(customerId=null, firstName=Anagha, lastName=N G, email=test@email.com, phoneNumber=9876543120, address=Electronic City, city=Banglore, state=KA, zipCode=560064, passcode=PassWord, order=null)
+2024-09-02 11:37:34 INFO  c.p.c.controller.CustomerController - Saving customer Customer(customerId=15, firstName=Anagha, lastName=N G, email=test@email.com, phoneNumber=9876543120, address=Electronic City, city=Banglore, state=KA, zipCode=560064, passcode=PassWord, order=null)
+2024-09-02 11:37:41 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 11:38:01 INFO  c.p.c.controller.CustomerController - Getting the list of order placed by customer
+2024-09-02 11:38:01 INFO  c.p.c.controller.CustomerController - Checling if the customer is present with id 1
+2024-09-02 11:38:01 INFO  c.p.c.service.CustomerService - Finding the customer by ID: 1
+2024-09-02 11:38:01 INFO  c.p.c.service.OrderService - Fetching all orders for customer: 1
+2024-09-02 11:38:01 INFO  c.p.c.service.OrderService - Found 6 orders for customer: 1
+2024-09-02 11:38:01 INFO  c.p.c.controller.CustomerController - List of order of customer with id 1 is [FAILED toString()]
+2024-09-02 11:38:01 INFO  c.p.c.controller.CustomerController - Returning the list of order [OrderReturnBean(OrderId=1, dishId=17, customerId=1, status=1, quantity=1), OrderReturnBean(OrderId=2, dishId=23, customerId=1, status=1, quantity=10), OrderReturnBean(OrderId=5, dishId=1, customerId=1, status=1, quantity=10), OrderReturnBean(OrderId=6, dishId=1, customerId=1, status=1, quantity=10), OrderReturnBean(OrderId=7, dishId=1, customerId=1, status=1, quantity=10), OrderReturnBean(OrderId=8, dishId=1, customerId=1, status=0, quantity=10)]
+2024-09-02 11:42:41 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 11:47:41 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 11:52:41 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 11:57:41 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 12:02:41 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 12:06:52 ERROR c.p.c.e.MenuGlobalExceptionHandler - Validation error occurred: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<?> com.proj.customerservice.controller.CustomerController.savEntity(com.proj.customerservice.beans.CustomerBean) with 3 errors: [Field error in object 'customerBean' on field 'PhoneNumber': rejected value [0]; codes [Min.customerBean.PhoneNumber,Min.PhoneNumber,Min.java.lang.Long,Min]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [customerBean.PhoneNumber,PhoneNumber]; arguments []; default message [PhoneNumber],1000000000]; default message [must be greater than or equal to 1000000000]] [Field error in object 'customerBean' on field 'Email': rejected value [string]; codes [Email.customerBean.Email,Email.Email,Email.java.lang.String,Email]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [customerBean.Email,Email]; arguments []; default message [Email],[Ljakarta.validation.constraints.Pattern$Flag;@72aad5c6,.*]; default message [must be a well-formed email address]] [Field error in object 'customerBean' on field 'PhoneNumber': rejected value [0]; codes [Positive.customerBean.PhoneNumber,Positive.PhoneNumber,Positive.java.lang.Long,Positive]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [customerBean.PhoneNumber,PhoneNumber]; arguments []; default message [PhoneNumber]]; default message [Phone number must be a positive number.]] 
+2024-09-02 12:06:52 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<?> com.proj.customerservice.controller.CustomerController.savEntity(com.proj.customerservice.beans.CustomerBean) with 3 errors: [Field error in object 'customerBean' on field 'PhoneNumber': rejected value [0]; codes [Min.customerBean.PhoneNumber,Min.PhoneNumber,Min.java.lang.Long,Min]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [customerBean.PhoneNumber,PhoneNumber]; arguments []; default message [PhoneNumber],1000000000]; default message [must be greater than or equal to 1000000000]] [Field error in object 'customerBean' on field 'Email': rejected value [string]; codes [Email.customerBean.Email,Email.Email,Email.java.lang.String,Email]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [customerBean.Email,Email]; arguments []; default message [Email],[Ljakarta.validation.constraints.Pattern$Flag;@72aad5c6,.*]; default message [must be a well-formed email address]] [Field error in object 'customerBean' on field 'PhoneNumber': rejected value [0]; codes [Positive.customerBean.PhoneNumber,Positive.PhoneNumber,Positive.java.lang.Long,Positive]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [customerBean.PhoneNumber,PhoneNumber]; arguments []; default message [PhoneNumber]]; default message [Phone number must be a positive number.]] ]
+2024-09-02 12:07:41 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 12:12:41 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 12:17:41 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 12:22:41 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 12:27:41 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 12:32:41 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 12:37:41 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 12:42:41 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 12:47:41 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 12:52:41 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 12:57:41 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 13:02:41 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 13:07:41 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 13:12:41 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 13:17:41 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 13:22:41 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 13:27:41 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 13:32:41 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 13:37:41 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 13:42:41 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 13:47:41 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 13:52:41 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 13:57:41 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 14:02:41 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 14:07:41 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 14:12:41 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 14:17:41 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-02 14:22:41 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
